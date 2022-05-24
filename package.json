@@ -25,7 +25,9 @@
     "promise",
     "method"
   ],
-  "repository": "underscopeio/sinon-mongoose",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@kollavarsham/gulp-coveralls": "^0.2.5",
